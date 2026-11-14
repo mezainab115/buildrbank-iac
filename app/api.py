@@ -211,3 +211,4 @@ def health() -> dict:
             "supabase_reachable": db_ok,
             "supabase_detail": db_detail,
             **settings.summary(CONFIG)}
+app = api
