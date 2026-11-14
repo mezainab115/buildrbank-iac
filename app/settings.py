@@ -49,7 +49,8 @@ import buildrbank.config as bb_config
 # ---------------------------------------------------------------- paths
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = PROJECT_ROOT / "data"          # the conversation memory file lives here
+#DATA_DIR = PROJECT_ROOT / "data"          # the conversation memory file lives here
+DATA_DIR = Path("/tmp/data") if os.environ.get("VERCEL") else PROJECT_ROOT / "data"
 
 load_dotenv(PROJECT_ROOT / ".env")
 
