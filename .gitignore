@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .pytest_cache/
+node_modules/
 
 # ---- Week 08: infrastructure ----------------------------------
 # Terraform's downloads and its notebook. The state file records what
