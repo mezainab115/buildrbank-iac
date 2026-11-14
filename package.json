@@ -1,0 +1,10 @@
+{
+  "name": "buildrbank-cloudflare",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
